@@ -15,7 +15,7 @@ public class Perfect {
             }
         }
 
-        if (number == sumOfDivisors) {
+        if (number == sumOfDivisors && number != 1) {
             System.out.println(perfectNumberMessage);
         } else {
             System.out.println(number + " is not a perfect number");
